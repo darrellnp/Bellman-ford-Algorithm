@@ -11,7 +11,7 @@ struct Edge
     // This structure is equal to an edge. Edge contains two end points. These edges are directed edges so they
 //contain source and destination and some weight. These 3 are elements in this structure
     int source, destination, weight;
-}
+};
  
 // a structure to represent a connected, directed and weighted graph
 struct Graph
@@ -25,7 +25,7 @@ struct Graph
  
 struct Graph* createGraph(int V, int E)
 {
-    struct Graph* graph = (struct Graph*) malloc( sizeof(struct graph);
+    struct Graph* graph = (struct Graph*) malloc(sizeof(struct Graph));
 //Allocating space to structure graph
  
     graph->V = V;   //assigning values to structure elements that taken form user.
